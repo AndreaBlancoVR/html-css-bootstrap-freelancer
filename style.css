@@ -46,7 +46,8 @@ img {
 }
 
 .ms_portfolio-card-container {
-    width: 250px;
+    flex-direction: column;
+    width: calc(95% / 3);;
 }
 
     /*  COLORI  */
