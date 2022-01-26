@@ -2,7 +2,39 @@
     border: 1px solid rgb(255, 0, 200);
 }
 
-.ms_head {
-    background-color: #2C3E50;
+.ms_color-white {
     color: white;
+}
+
+.ms_bg-blue {
+    background-color: #2C3E50;
+}
+
+
+.ms_bg-green {
+    background-color: #1ABC9C;
+}
+
+.ms_bg-red {
+    background-color: #BA4B63;
+}
+
+.ms_bg-l-blue {
+    background-color: #1EA4B6;
+}
+
+.ms_bg-l-black {
+    background-color: #140F0F;
+}
+
+.ms_bg-lm-blue {
+    background-color: #1C83C1;
+}
+
+.ms_bg-el-blue {
+    background-color: #0E38B5;
+}
+
+.ms_bg-beige {
+    background-color: #CCB2A3;
 }
