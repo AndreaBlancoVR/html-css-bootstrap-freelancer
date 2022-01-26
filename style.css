@@ -2,6 +2,24 @@
     border: 1px solid rgb(255, 0, 200);
 }
 
+    /*  ALTEZZE  */
+
+.main-header .row {
+    min-height: 90px;
+}
+
+#jumbo {
+    min-height: 590px;
+    text-align: center;
+}
+
+
+
+
+
+
+    /*  COLORI  */
+
 .ms_color-white {
     color: white;
 }
