@@ -3,20 +3,51 @@
 }
 
     /*  ALTEZZE  */
+img {
+    width: 100%;
+}
+ 
 
 .main-header .row {
     min-height: 90px;
 }
-
+/*
 #jumbo {
     min-height: 590px;
     text-align: center;
 }
+*/
+.jumbo-card-container {
+    min-width: 200px;
+}
 
+.star-icon::before {
+    content: '';  
+    width: 15vw;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    /*transform: translateY(-50%);*/
+    background: currentColor;
+    display: block;
+}
 
+.star-icon::after {
+    content: '';  
+    width: 15vw;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    /*transform: translateY(-50%);*/
+    background: currentColor;
+    display: block;
+}
 
-
-
+.ms_portfolio-card-container {
+    width: 250px;
+}
 
     /*  COLORI  */
 
