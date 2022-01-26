@@ -6,6 +6,10 @@
     color: white;
 }
 
+.ms_color-green {
+    color: #1ABC9C;
+}
+
 .ms_bg-blue {
     background-color: #2C3E50;
 }
@@ -37,4 +41,8 @@
 
 .ms_bg-beige {
     background-color: #CCB2A3;
+}
+
+.ms_bg-d-blue {
+    background-color: #3A546D;
 }
