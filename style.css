@@ -49,11 +49,7 @@ img {
     /*flex-direction: column;*/
     width: calc(95% / 1);
 }
- /*
-.ms_col-count {
-    column-count: 2;
-}
-*/
+
   /*  NON FUNZIONA E NON SO PERCHè 
   
   
@@ -76,7 +72,23 @@ img {
 
 */
 
+.ms_social-icon li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 0 25px;
+ }
 
+.ms_social-icon a{
+    text-decoration: none;
+    color: currentColor;
+ }
+
+.ms_social-icon i{
+   border: 1px solid currentColor;
+   border-radius: 50%;
+   padding: 6px; 
+}
 
     /*  COLORI  */
 
@@ -131,7 +143,7 @@ img {
 
 
 
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 576px) { 
     .ms_portfolio-card-container {
         /*flex-direction: column;*/
         width: calc(95% / 2);
