@@ -23,11 +23,11 @@ img {
 
 .star-icon::before {
     content: '';  
-    width: 15vw;
+    width: calc(1.3rem + 5vw);
     height: 3px;
     position: absolute;
     top: 50%;
-    right: 40px;
+    right: 50px;
     /*transform: translateY(-50%);*/
     background: currentColor;
     display: block;
@@ -35,20 +35,48 @@ img {
 
 .star-icon::after {
     content: '';  
-    width: 15vw;
+    width: calc(1.3rem + 5vw);
     height: 3px;
     position: absolute;
     top: 50%;
-    left: 40px;
+    left: 50px;
     /*transform: translateY(-50%);*/
     background: currentColor;
     display: block;
 }
 
 .ms_portfolio-card-container {
-    flex-direction: column;
-    width: calc(95% / 3);;
+    /*flex-direction: column;*/
+    width: calc(95% / 1);
 }
+ /*
+.ms_col-count {
+    column-count: 2;
+}
+*/
+  /*  NON FUNZIONA E NON SO PERCHè 
+  
+  
+.ms_portfolio-card-container img::after {
+    content: '';
+    background-color: #1ABC9C;
+    opacity: 0.0;
+    transition: opacity 0.2s ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    position: absolute;
+}
+
+.ms_portfolio-card-container:hover .ms_portfolio-card-container img::after {
+    opacity: 0.3;
+}
+
+*/
+
+
 
     /*  COLORI  */
 
@@ -95,4 +123,31 @@ img {
 
 .ms_bg-d-blue {
     background-color: #3A546D;
+}
+
+
+    /*  MEDIA QUERY  */
+
+
+
+
+@media screen and (min-width: 768px) { 
+    .ms_portfolio-card-container {
+        /*flex-direction: column;*/
+        width: calc(95% / 2);
+    }
+
+    .ms_col-count {
+        column-count: 2;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .ms_portfolio-card-container {
+        /*flex-direction: column;*/
+        width: calc(95% / 3);
+    }
+    
 }
